@@ -14,9 +14,13 @@ defaults:
       layout: "page"
       
 plugins:
-  - jekyll-feed  # Plugin minimal pour les builds GitHub
+  - jekyll-include-cache
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  
+  remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+  
+  
