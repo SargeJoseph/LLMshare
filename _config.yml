@@ -1,7 +1,6 @@
-# _config.yml corrigé
 title: "Analyses Tactiques"
 url: "https://sargejoseph.github.io/LLMshare/"
-encoding: UTF-8  # Force l'encodage[citation:2]
+encoding: UTF-8  # Force l'encodage
 
 defaults:
   - scope:
