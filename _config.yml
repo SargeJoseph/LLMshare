@@ -3,8 +3,10 @@ url: "https://sargejoseph.github.io/LLMshare/"
 encoding: UTF-8  # Force l'encodage
 
 remote_theme: mmistakes/minimal-mistakes@4.24.0
+
 plugins:
-  - jekyll-remote-theme
+   - jekyll-remote-theme
+   - jekyll-include-cache
 
 defaults:
   - scope:
