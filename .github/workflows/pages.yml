@@ -1,13 +1,15 @@
-name: GitHub Pages
-on:
-  push:
-    branches: [main]
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+name: Build with Jekyll-Include-Cache
+   on:
+     push:
+       branches: ["main"]
+   jobs:
+     build:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v4
+         - uses: actions/jekyll-build-pages@v1
+           with:
+             source: ./
+             destination: ./_site
+             bundler-version: ">=2.1.0"
+             gems: jekyll-include-cache
