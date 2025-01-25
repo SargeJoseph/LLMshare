@@ -1,9 +1,20 @@
-title: "Mes Analyses Tactiques"
-   theme: minima
-   include:
-    
-    - "*.html"  # Inclut tous les fichiers HTMLinclude:
-    - .nojekyll  # Force l'inclusion des fichiers HTML bruts
-   exclude:
-     - Gemfile
-     - Gemfile.lock
+# _config.yml corrigé
+title: "Analyses Tactiques"
+url: "https://SargeJoseph.github.io"
+encoding: UTF-8  # Force l'encodage[citation:2]
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
