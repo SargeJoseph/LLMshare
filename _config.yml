@@ -12,6 +12,9 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+      
+plugins:
+  - jekyll-feed  # Plugin minimal pour les builds GitHub
 
 exclude:
   - Gemfile
