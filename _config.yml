@@ -2,6 +2,10 @@ title: "Analyses Tactiques"
 url: "https://sargejoseph.github.io/LLMshare/"
 encoding: UTF-8  # Force l'encodage
 
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+  - jekyll-remote-theme
+
 defaults:
   - scope:
       path: ""
@@ -12,15 +16,8 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      
-plugins:
-  - jekyll-include-cache
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  
-  remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-  
-  
