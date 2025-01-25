@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Mes Analyses"
+title: "Répertoire d'analyses générées par LLM"
 ---
 
-## Liste des fichiers HTML :
+## Liste des analyses disponibles  :
 <ul>
 {% for file in site.static_files %}
     {% if file.extname == ".html" and file.path != "/index.html" %}
