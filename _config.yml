@@ -1,0 +1,7 @@
+title: "Mes Analyses Tactiques"
+   theme: minima
+   include:
+     - .nojekyll  # Force l'inclusion des fichiers HTML bruts
+   exclude:
+     - Gemfile
+     - Gemfile.lock
