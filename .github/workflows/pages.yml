@@ -1,13 +1,12 @@
-name: "Build with Custom Gems"
-   on:
-    push:
-      branches: [main]  # Indentation + structure clé:valeur
-   jobs:
-     build:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: actions/checkout@v4
-         - uses: actions/jekyll-build-pages@v1
-           with:
-             source: ./
-             gems: jekyll-include-cache # Force l'installation
+name: Jekyll Build & Deploy  # Ligne 1
+on:                          # Ligne 2 correctement alignée
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
