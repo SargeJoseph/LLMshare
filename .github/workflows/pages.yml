@@ -10,4 +10,4 @@ name: Build with Custom Gems
          - uses: actions/jekyll-build-pages@v1
            with:
              source: ./
-             gems: jekyll-include-cache  # 👈 Force l'installation
+             gems: jekyll-include-cache # Force l'installation
