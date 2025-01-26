@@ -1,7 +1,8 @@
----
+<!-- ---
 layout: default
 title: "Répertoire d'analyses générées par LLM"
 ---
+-->
 
 ## Liste des analyses disponibles  :
 <ul>
