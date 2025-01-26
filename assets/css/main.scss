@@ -1,3 +1,6 @@
 ---
+
 ---
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}"; 
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
