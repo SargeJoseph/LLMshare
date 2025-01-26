@@ -1,7 +1,5 @@
-name: Build with Jekyll-Include-Cache
-   on:
-     push:
-       branches: ["main"]
+name: Build with Custom Gems
+   on: [push]
    jobs:
      build:
        runs-on: ubuntu-latest
@@ -10,6 +8,4 @@ name: Build with Jekyll-Include-Cache
          - uses: actions/jekyll-build-pages@v1
            with:
              source: ./
-             destination: ./_site
-             bundler-version: ">=2.1.0"
-             gems: jekyll-include-cache
+             gems: jekyll-include-cache  # 👈 Force l'installation
