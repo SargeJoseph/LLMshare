@@ -1,7 +1,7 @@
 name: Build with Custom Gems
    on:
     push:
-      branches: [main]  # ✅ Indentation + structure clé:valeur
+      branches: [main]  # Indentation + structure clé:valeur
    jobs:
      build:
        runs-on: ubuntu-latest
