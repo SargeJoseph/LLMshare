@@ -1,4 +1,4 @@
-name: Build with Custom Gems
+name: "Build with Custom Gems"
    on:
     push:
       branches: [main]  # Indentation + structure clé:valeur
