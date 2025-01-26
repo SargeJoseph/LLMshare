@@ -3,7 +3,7 @@ url: "https://sargejoseph.github.io/LLMshare/"
 encoding: UTF-8  # Force l'encodage
 
 remote_theme: pages-themes/tactile@v0.2.0
-#minimal_mistakes_skin: "default" # ou "air", "aqua", etc.
+minimal_mistakes_skin: "default" # ou "air", "aqua", etc.
 plugins:
    - jekyll-remote-theme
    - jekyll-include-cache
