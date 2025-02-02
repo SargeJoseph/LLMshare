@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .book {
+            background: white;
+            padding: 3rem;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 1.5em;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 0.5em;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 1.5em;
+            font-size: 1.8em;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 1em;
+            padding-left: 1.5em;
+            position: relative;
+        }
+        li:before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        .footnote {
+            margin-top: 3em;
+            font-style: italic;
+            text-align: center;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="book">
+        <h1>Guide Stratégique du Milieu de Terrain</h1>
+        <h2>Introduction</h2>
+        <div class="section">
+            <p>Dans le football à 7, le rôle du milieu de terrain est crucial pour le succès de l'équipe. Ce guide présente les stratégies essentielles pour maximiser votre impact sur le jeu.</p>
+        </div>
+
+        <h2>Positionnement</h2>
+        <div class="section">
+            <ul>
+                <li>Maintenez une position centrale tout en étant prêt à basculer entre l'attaque et la défense - votre rôle s'apparente à celui d'un milieu box-to-box en raison des dimensions réduites du terrain.</li>
+                <li>Adoptez un positionnement triangulaire avec vos attaquants et défenseurs pour créer des lignes de passes efficaces.</li>
+                <li>Apprenez à identifier et exploiter les "poches d'espace" entre les joueurs adverses pour recevoir les passes en sécurité.</li>
+            </ul>
+        </div>
+
+        <h2>Stratégie Offensive</h2>
+        <div class="section">
+            <ul>
+                <li>Soyez le pivot entre la défense et l'attaque - la majorité des actions doivent passer par vous pour une construction efficace du jeu.</li>
+                <li>Privilégiez les passes courtes et rapides pour conserver la possession, particulièrement important sur un terrain réduit où le pressing est omniprésent.</li>
+                <li>Maîtrisez les "courses du troisième homme" - après une passe à un coéquipier, créez une nouvelle option en vous déplaçant dans l'espace.</li>
+                <li>Recherchez activement les une-deux rapides avec les attaquants pour déstabiliser la défense adverse.</li>
+            </ul>
+        </div>
+
+        <h2>Responsabilités Défensives</h2>
+        <div class="section">
+            <ul>
+                <li>Appliquez un pressing immédiat après la perte du ballon - l'efficacité du contre-pressing est décuplée sur un terrain plus petit.</li>
+                <li>Focalisez-vous sur l'interception des lignes de passes plutôt que sur la poursuite systématique du ballon.</li>
+                <li>Conservez une position entre le but et les attaquants adverses lors des phases défensives.</li>
+                <li>Maintenez une communication constante avec vos défenseurs pour coordonner efficacement le pressing et le marquage.</li>
+            </ul>
+        </div>
+
+        <h2>Gestion de l'Endurance</h2>
+        <div class="section">
+            <ul>
+                <li>Sélectionnez judicieusement vos moments d'effort intense - le terrain réduit implique des actions plus intenses et rapprochées.</li>
+                <li>Profitez des phases de jeu moins intenses pour récupérer en marchant lorsque le ballon est dans des zones sécurisées.</li>
+                <li>Préférez des sprints courts mais fréquents aux longues courses pour optimiser votre impact sur le jeu.</li>
+            </ul>
+        </div>
+
+        <p class="footnote">Un guide stratégique pour les milieux de terrain en football à 7</p>
+    </div>
+</body>
+</html>
