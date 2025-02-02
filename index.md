@@ -1,4 +1,4 @@
-## Liste des analyses disponibles  :
+## Liste des analyses disponibles 2025-02  :
 <ul>
 {% for file in site.static_files %}
     {% if file.extname == ".html" and file.path != "/index.html" %}
